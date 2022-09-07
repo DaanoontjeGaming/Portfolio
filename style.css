@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),
+    url("background.jpg");
+}
+
+h1{
+    font-size: 50px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    margin: 15vh 0vh 0vh 0vw;
+}
+
+.Skills{
+    align-content: center;
+    align-self: center;
+}
+
+#skill-container{
+    height: 500px;
+    width: 78.9vw;
+    font-size: 30px;
+    margin-left: 30vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  
+  .skillName{
+    line-height: 8vh;
+    font-size: 2vw;
+    color: white;
+  }
+  
+  .skillBar{
+    transform: translateX(-20vw);
+    background-color: #ffffff;
+    border: solid 1px black;
+    margin-top: 4vh;
+    width: 20vw;
+    height: 2vh;
+    border-radius: 5vh;
+  }
+  
+  .skillDone{
+    background-color: rgb(22, 123, 255);
+    border-radius: 5vh 5vh 5vh 5vh;
+    height: 2vh;
+    transform: translateX(-0.06vw);
+  }
+  
+.Headline{
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 7vw;
+    color: rgb(255, 255, 255);
+}
+
+.Head-container{
+    grid-column: span 2;
+  }
+
+  .skillDone-1{
+    width: 17vw;
+  }
+  .skillDone-2{
+    width: 16vw;
+  }
+  .skillDone-3{
+    width: 17vw;
+  }
+  .skillDone-4{
+    width: 17vw;
+  }
+  .skillDone-5{
+    width: 15vw;
+  }
+  .skillDone-6{
+    width: 15vw;
+  }
